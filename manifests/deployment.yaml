@@ -27,5 +27,5 @@ spec:
             memory: 100Mi
         ports:
         - containerPort: 80
-        securityContext:
-          runAsUser: 0 ##change##
+        # securityContext:
+        #   runAsUser: 0 ##change##
